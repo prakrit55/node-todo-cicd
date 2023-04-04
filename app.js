@@ -1,5 +1,5 @@
 const express = require('express'),
-    bodyParser = require('body-parser'),
+    bodyParser = requireb('body-parser'),
     // In order to use PUT HTTP verb to edit item
     methodOverride = require('method-override'),
     // Mitigate XSS using sanitizer
